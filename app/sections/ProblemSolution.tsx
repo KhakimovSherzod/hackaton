@@ -343,7 +343,7 @@ export default function AdvancedHealthDashboard() {
   const currentStats = models[currentModel].stats
 
   return (
-    <section className='min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white overflow-hidden'>
+    <section className='min-h-screen bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 text-white overflow-hidden'>
       {/* Animated Background */}
       <div className='absolute inset-0 overflow-hidden'>
         <div className='absolute -top-40 -right-40 w-80 h-80 bg-purple-600 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse'></div>
@@ -448,8 +448,8 @@ export default function AdvancedHealthDashboard() {
 
               <h1 className='text-4xl md:text-5xl font-bold leading-tight'>
                 Sizning{' '}
-                <span className='bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent'>
-                  Raqamli Egzangiz
+                <span className='bg-linear-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent'>
+                  Raqamli Egzagingiz
                 </span>
               </h1>
 
