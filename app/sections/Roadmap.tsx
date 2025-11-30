@@ -225,21 +225,21 @@ export default function Roadmap() {
   const currentStageData = developmentStages.find(stage => stage.id === currentStage)
 
   return (
-    <section id="roadmap" className="py-20 bg-gradient-to-br from-gray-900 to-blue-900 text-white">
+    <section id="roadmap" className="py-20 bg-linear-to-br from-gray-900 to-blue-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 bg-blue-500/20 text-blue-300 rounded-full text-sm font-medium mb-4 border border-blue-500/30">
-            🗺️ Yo'l Xaritasi & Rivojlanish Bosqichlari
+            🗺️ Yo&apos;l Xaritasi & Rivojlanish Bosqichlari
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Bizning <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-              Rivojlanish Yo'limiz
+            Bizning <span className="bg-linear-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+              Rivojlanish Yo&apos;limiz
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Raqamli egza platformasini gʻoyadan toʻliq miqyosli mahsulotgacha rivojlantirish jarayoni
+            Raqamli egza platformasini g&apos;oyadan to&apos;liq miqyosli mahsulotgacha rivojlantirish jarayoni
           </p>
         </div>
 
@@ -300,7 +300,7 @@ export default function Roadmap() {
                     <ul className="space-y-3">
                       {currentStageData?.features.map((feature, index) => (
                         <li key={index} className="flex items-start space-x-3">
-                          <div className="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                          <div className="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 shrink-0"></div>
                           <span className="text-gray-300 text-sm">{feature}</span>
                         </li>
                       ))}
@@ -314,7 +314,7 @@ export default function Roadmap() {
                     <ul className="space-y-3">
                       {currentStageData?.achievements.map((achievement, index) => (
                         <li key={index} className="flex items-start space-x-3">
-                          <div className="w-1.5 h-1.5 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></div>
+                          <div className="w-1.5 h-1.5 bg-yellow-400 rounded-full mt-2 shrink-0"></div>
                           <span className="text-gray-300 text-sm">{achievement}</span>
                         </li>
                       ))}
@@ -405,7 +405,7 @@ export default function Roadmap() {
                 <ul className="space-y-3 text-left">
                   {step.goals.map((goal, goalIndex) => (
                     <li key={goalIndex} className="flex items-start space-x-3">
-                      <div className="w-1.5 h-1.5 bg-cyan-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-1.5 h-1.5 bg-cyan-400 rounded-full mt-2 shrink-0"></div>
                       <span className="text-gray-300 text-sm">{goal}</span>
                     </li>
                   ))}
@@ -417,7 +417,7 @@ export default function Roadmap() {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-cyan-500/20 to-blue-500/20 rounded-2xl p-8 border border-cyan-500/30">
+          <div className="bg-linear-to-r from-cyan-500/20 to-blue-500/20 rounded-2xl p-8 border border-cyan-500/30">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
               Loyihada Ishtirok Etmoqchimisiz?
             </h3>

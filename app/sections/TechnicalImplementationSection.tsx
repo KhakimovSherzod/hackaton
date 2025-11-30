@@ -20,8 +20,8 @@ export default function TechnicalImplementationSection() {
             'Biomerkerlarni qayta ishlash uchun LSTM/GRU tarmoqlarini loyihalash',
             'Xavf bashorati uchun LightGBM va 1D-CNN modellarini yaratish',
             'Real-vaqtda maʼlumotlarni qayta ishlash pipeline ni qurish',
-            'Model training va validatsiya strategiyasini ishlab chiqish'
-          ]
+            'Model training va validatsiya strategiyasini ishlab chiqish',
+          ],
         },
         {
           title: 'Maʼlumotlar Bazasi Dizayn',
@@ -31,8 +31,8 @@ export default function TechnicalImplementationSection() {
             'Biomerkerlar va foydalanuvchi maʼlumotlari uchun schema loyihalash',
             'Real-vaqtda maʼlumotlarni qayta ishlash uchun Redis konfiguratsiyasi',
             'Maʼlumotlar xavfsizligi va maxfiylik protokollarini oʻrnatish',
-            'Backup va recovery strategiyasini ishlab chiqish'
-          ]
+            'Backup va recovery strategiyasini ishlab chiqish',
+          ],
         },
         {
           title: '3D Vizualizatsiya Arxitektura',
@@ -42,10 +42,10 @@ export default function TechnicalImplementationSection() {
             '3D inson modeli va animatsiya sistemalarini yaratish',
             'Real-vaqtda biomerker oʻzgarishlarini vizuallashtirish',
             'WebSocket orqali real-vaqtda maʼlumotlar uzatish',
-            'Mobile va desktop qurilmalar uchun optimallashtirish'
-          ]
-        }
-      ]
+            'Mobile va desktop qurilmalar uchun optimallashtirish',
+          ],
+        },
+      ],
     },
     {
       id: 'development',
@@ -61,8 +61,8 @@ export default function TechnicalImplementationSection() {
             'Sintetik va real biomerker maʼlumotlari bilan modellarni trening qilish',
             'Model aniqligini 95%+ darajasiga olib chiqish',
             'Real-vaqtda bashorat performansini optimallashtirish',
-            'Model monitoring va retraining pipeline ni yaratish'
-          ]
+            'Model monitoring va retraining pipeline ni yaratish',
+          ],
         },
         {
           title: 'Backend API & Microservices',
@@ -72,8 +72,8 @@ export default function TechnicalImplementationSection() {
             'RESTful API va WebSocket serverlarini yaratish',
             'AI model servislari va maʼlumotlar qayta ishlash pipeline',
             'Foydalanuvchi autentifikatsiya va authorization tizimi',
-            'Microservices arxitektura va inter-service communication'
-          ]
+            'Microservices arxitektura va inter-service communication',
+          ],
         },
         {
           title: 'Frontend & 3D Interfeys',
@@ -83,10 +83,10 @@ export default function TechnicalImplementationSection() {
             'Real-vaqtda dashboard va analitika panelini yaratish',
             '3D raqamli egza komponenti va animatsiyalarni ishlab chiqish',
             'Mobile-responsive dizayn va progressive web app funksionalligi',
-            'Real-vaqtda maʼlumotlar yangilanishi va vizualizatsiya'
-          ]
-        }
-      ]
+            'Real-vaqtda maʼlumotlar yangilanishi va vizualizatsiya',
+          ],
+        },
+      ],
     },
     {
       id: 'integration',
@@ -102,8 +102,8 @@ export default function TechnicalImplementationSection() {
             'Apple HealthKit va Google Fit API integratsiyasi',
             'Smart watch va fitness trackerlar bilan maʼlumotlar almashinuvi',
             'Real-vaqtda sensor maʼlumotlarini qayta ishlash',
-            'Offline mode va maʼlumotlar sinxronizatsiyasi'
-          ]
+            'Offline mode va maʼlumotlar sinxronizatsiyasi',
+          ],
         },
         {
           title: 'Xavfsizlik & Sertifikatsiya',
@@ -113,8 +113,8 @@ export default function TechnicalImplementationSection() {
             'End-to-end encryption va maʼlumotlar xavfsizligi',
             'HIPAA va tibbiy maʼlumotlar maxfiyligi talablariga moslashtirish',
             'Security audit va penetration testing',
-            'Compliance dokumentatsiyasi va sertifikatsiya'
-          ]
+            'Compliance dokumentatsiyasi va sertifikatsiya',
+          ],
         },
         {
           title: 'Testing & Quality Assurance',
@@ -124,10 +124,10 @@ export default function TechnicalImplementationSection() {
             'AI model accuracy va performance testing',
             'End-to-end testing va user acceptance testing',
             'Load testing va masshtablanuvchanlik testlari',
-            'Security testing va vulnerability assessment'
-          ]
-        }
-      ]
+            'Security testing va vulnerability assessment',
+          ],
+        },
+      ],
     },
     {
       id: 'deployment',
@@ -143,8 +143,8 @@ export default function TechnicalImplementationSection() {
             'Microservices deployment va container orchestration',
             'Auto-scaling va load balancing konfiguratsiyasi',
             'CI/CD pipeline va automated deployment',
-            'Disaster recovery va high availability setup'
-          ]
+            'Disaster recovery va high availability setup',
+          ],
         },
         {
           title: 'Real-time Monitoring & Analytics',
@@ -154,8 +154,8 @@ export default function TechnicalImplementationSection() {
             'Real-vaqtda tizim health monitoring',
             'AI model performance va drift monitoring',
             'Foydalanuvchi behavior analytics',
-            'Custom dashboard va reporting tizimi'
-          ]
+            'Custom dashboard va reporting tizimi',
+          ],
         },
         {
           title: 'Continuous Improvement',
@@ -165,11 +165,11 @@ export default function TechnicalImplementationSection() {
             'Real-vaqtda model retraining pipeline',
             'A/B testing yangi AI xususiyatlari uchun',
             'Foydalanuvchi feedback va model improvement loop',
-            'Automated model deployment va versioning'
-          ]
-        }
-      ]
-    }
+            'Automated model deployment va versioning',
+          ],
+        },
+      ],
+    },
   ]
 
   const aiTechnologies = [
@@ -183,8 +183,8 @@ export default function TechnicalImplementationSection() {
           advantages: [
             'Uzoq muddatli bogʻliqliklarni aniqlaydi',
             'Biomerkerlarning vaqt oʻtishi bilan oʻzgarishlarini tushunadi',
-            'Real-vaqtda maʼlumotlarni samarali qayta ishlaydi'
-          ]
+            'Real-vaqtda maʼlumotlarni samarali qayta ishlaydi',
+          ],
         },
         {
           name: 'GRU (Gated Recurrent Units)',
@@ -193,8 +193,8 @@ export default function TechnicalImplementationSection() {
           advantages: [
             'Kamroq parametr bilan yuqori samaradorlik',
             'Tezroq trening va inferens vaqti',
-            'LSTM ga qaraganda soddaroq arxitektura'
-          ]
+            'LSTM ga qaraganda soddaroq arxitektura',
+          ],
         },
         {
           name: '1D-CNN (Convolutional Neural Networks)',
@@ -203,8 +203,8 @@ export default function TechnicalImplementationSection() {
           advantages: [
             'Mahalliy naqshlarni samarali aniqlaydi',
             'Translation invariant xususiyatlar',
-            'Yuqori aniqdagi anomaliya deteksiyasi'
-          ]
+            'Yuqori aniqdagi anomaliya deteksiyasi',
+          ],
         },
         {
           name: 'LightGBM',
@@ -213,10 +213,10 @@ export default function TechnicalImplementationSection() {
           advantages: [
             'Yuqori aniqlik bilan tez inferens',
             'Katta hajmdagi maʼlumotlarni samarali qayta ishlaydi',
-            'Feature importance tahlili'
-          ]
-        }
-      ]
+            'Feature importance tahlili',
+          ],
+        },
+      ],
     },
     {
       category: 'AI Yechimlari & Algoritmlar',
@@ -228,8 +228,8 @@ export default function TechnicalImplementationSection() {
           advantages: [
             'Multi-modal biomerkerlarni birlashtiradi',
             'Real-vaqtda holatni baholaydi',
-            'Shaxsiylashtirilgan baseline bilan solishtiradi'
-          ]
+            'Shaxsiylashtirilgan baseline bilan solishtiradi',
+          ],
         },
         {
           name: 'Risk Prediction Engine',
@@ -238,8 +238,8 @@ export default function TechnicalImplementationSection() {
           advantages: [
             'Koʻp faktorli risk baholash',
             'Probability score bilan ishlaydi',
-            'Real-vaqtda ogohlantirishlar beradi'
-          ]
+            'Real-vaqtda ogohlantirishlar beradi',
+          ],
         },
         {
           name: 'Digital Twin Personalization',
@@ -248,8 +248,8 @@ export default function TechnicalImplementationSection() {
           advantages: [
             'Federated learning bilan shaxsiylashtirish',
             'Privacy-preserving personalization',
-            'Continuous adaptation va oʻrganish'
-          ]
+            'Continuous adaptation va oʻrganish',
+          ],
         },
         {
           name: 'Recommendation AI',
@@ -258,11 +258,11 @@ export default function TechnicalImplementationSection() {
           advantages: [
             'Context-aware recommendations',
             'Reinforcement learning bilan optimallashtirish',
-            'Foydalanuvchi preferensiyalariga moslashish'
-          ]
-        }
-      ]
-    }
+            'Foydalanuvchi preferensiyalariga moslashish',
+          ],
+        },
+      ],
+    },
   ]
 
   const techStack = {
@@ -271,28 +271,28 @@ export default function TechnicalImplementationSection() {
       language: 'TypeScript',
       visualization: 'Three.js, D3.js, Recharts',
       styling: 'Tailwind CSS, Framer Motion',
-      state: 'Zustand, React Query'
+      state: 'Zustand, React Query',
     },
     backend: {
       framework: 'FastAPI (Python)',
       language: 'Python 3.9+',
       database: 'PostgreSQL, Redis',
       auth: 'JWT, OAuth2',
-      realtime: 'WebSocket, Server-Sent Events'
+      realtime: 'WebSocket, Server-Sent Events',
     },
     ai: {
       framework: 'PyTorch, PyTorch Lightning',
       libraries: 'Scikit-learn, Pandas, NumPy',
       deployment: 'FastAPI, Docker',
-      monitoring: 'MLflow, Weights & Biases'
+      monitoring: 'MLflow, Weights & Biases',
     },
     infrastructure: {
       containers: 'Docker, Docker Compose',
       orchestration: 'Kubernetes (future)',
       cloud: 'AWS/GCP (EC2/Compute Engine, RDS/Cloud SQL)',
       monitoring: 'Prometheus, Grafana, ELK Stack',
-      cicd: 'GitHub Actions, GitLab CI'
-    }
+      cicd: 'GitHub Actions, GitLab CI',
+    },
   }
 
   const dataProcessingPipeline = [
@@ -300,59 +300,84 @@ export default function TechnicalImplementationSection() {
       stage: 'Maʼlumotlarni Yigʻish',
       description: 'Turli manbalardan biomerkerlarni toʻplash',
       technologies: ['REST API', 'WebSocket', 'Bluetooth', 'Manual Input'],
-      data: ['Yurak urishi', 'HRV', 'Uyqu maʼlumotlari', 'Faollik', 'Stress', 'Qon bosimi']
+      data: ['Yurak urishi', 'HRV', 'Uyqu maʼlumotlari', 'Faollik', 'Stress', 'Qon bosimi'],
     },
     {
       stage: 'Maʼlumotlarni Tozalash',
       description: 'Noise va outlierlarni olib tashlash',
       technologies: ['Pandas', 'NumPy', 'Custom Filters'],
-      data: ['Signal processing', 'Outlier detection', 'Data normalization', 'Missing value imputation']
+      data: [
+        'Signal processing',
+        'Outlier detection',
+        'Data normalization',
+        'Missing value imputation',
+      ],
     },
     {
       stage: 'Feature Engineering',
       description: 'AI modellari uchun xususiyatlarni yaratish',
       technologies: ['Scikit-learn', 'Custom Transformers'],
-      data: ['Time-series features', 'Statistical features', 'Domain-specific features', 'Rolling windows']
+      data: [
+        'Time-series features',
+        'Statistical features',
+        'Domain-specific features',
+        'Rolling windows',
+      ],
     },
     {
       stage: 'AI Model Inference',
       description: 'Real-vaqtda bashoratlar va tahlillar',
       technologies: ['PyTorch', 'ONNX Runtime', 'TensorRT'],
-      data: ['Health condition scores', 'Risk probabilities', 'Personal insights', 'Recommendations']
+      data: [
+        'Health condition scores',
+        'Risk probabilities',
+        'Personal insights',
+        'Recommendations',
+      ],
     },
     {
       stage: 'Vizualizatsiya',
       description: 'Foydalanuvchiga tushunarli formatda koʻrsatish',
       technologies: ['Three.js', 'WebGL', 'D3.js', 'WebSocket'],
-      data: ['3D avatar updates', 'Real-time charts', 'Risk indicators', 'Personal recommendations']
-    }
+      data: [
+        '3D avatar updates',
+        'Real-time charts',
+        'Risk indicators',
+        'Personal recommendations',
+      ],
+    },
   ]
 
   const currentPhaseData = implementationPhases.find(phase => phase.id === activePhase)
 
   return (
-    <section id="technical-implementation" className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+    <section
+      id='technical-implementation'
+      className='py-20 bg-linear-to-br from-slate-50 to-blue-50'
+    >
+      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         {/* Main Header */}
-        <div className="text-center mb-16">
-          <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-4">
+        <div className='text-center mb-16'>
+          <div className='inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-4'>
             🛠️ Texnik Yechim & Implementatsiya
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Muammoni <span className="text-blue-600">Qanday Hal Qilamiz</span>
+          <h2 className='text-4xl md:text-5xl font-bold text-gray-900 mb-4'>
+            Muammoni <span className='text-blue-600'>Qanday Hal Qilamiz</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            AI asosidagi raqamli egza platformasini qurish uchun texnik yondashuv va implementatsiya strategiyasi
+          <p className='text-xl text-gray-600 max-w-3xl mx-auto'>
+            AI asosidagi raqamli egza platformasini qurish uchun texnik yondashuv va implementatsiya
+            strategiyasi
           </p>
         </div>
 
         {/* Implementation Phases */}
-        <div className="mb-20">
-          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4 lg:mb-0">Implementatsiya Bosqichlari</h3>
-            <div className="flex flex-wrap gap-2">
-              {implementationPhases.map((phase) => (
+        <div className='mb-20'>
+          <div className='flex flex-col lg:flex-row justify-between items-start lg:items-center mb-8'>
+            <h3 className='text-2xl font-bold text-gray-900 mb-4 lg:mb-0'>
+              Implementatsiya Bosqichlari
+            </h3>
+            <div className='flex flex-wrap gap-2'>
+              {implementationPhases.map(phase => (
                 <button
                   key={phase.id}
                   onClick={() => setActivePhase(phase.id)}
@@ -369,30 +394,33 @@ export default function TechnicalImplementationSection() {
           </div>
 
           {/* Current Phase Details */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
-            <div className="mb-6">
-              <div className="flex justify-between items-start mb-4">
+          <div className='bg-white rounded-2xl shadow-xl p-8 border border-gray-200'>
+            <div className='mb-6'>
+              <div className='flex justify-between items-start mb-4'>
                 <div>
-                  <h4 className="text-2xl font-bold text-gray-900">{currentPhaseData?.name}</h4>
-                  <p className="text-gray-600 mt-2">{currentPhaseData?.description}</p>
+                  <h4 className='text-2xl font-bold text-gray-900'>{currentPhaseData?.name}</h4>
+                  <p className='text-gray-600 mt-2'>{currentPhaseData?.description}</p>
                 </div>
-                <div className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                <div className='bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium'>
                   ⏱️ {currentPhaseData?.timeline}
                 </div>
               </div>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
               {currentPhaseData?.components.map((component, index) => (
-                <div key={index} className="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                  <h5 className="text-lg font-semibold text-gray-900 mb-3">{component.title}</h5>
-                  <p className="text-gray-600 text-sm mb-4">{component.description}</p>
-                  
-                  <div className="mb-4">
-                    <h6 className="text-sm font-medium text-gray-700 mb-2">Texnologiyalar:</h6>
-                    <div className="flex flex-wrap gap-2">
+                <div key={index} className='bg-gray-50 rounded-xl p-6 border border-gray-200'>
+                  <h5 className='text-lg font-semibold text-gray-900 mb-3'>{component.title}</h5>
+                  <p className='text-gray-600 text-sm mb-4'>{component.description}</p>
+
+                  <div className='mb-4'>
+                    <h6 className='text-sm font-medium text-gray-700 mb-2'>Texnologiyalar:</h6>
+                    <div className='flex flex-wrap gap-2'>
                       {component.technologies.map((tech, techIndex) => (
-                        <span key={techIndex} className="px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs font-medium">
+                        <span
+                          key={techIndex}
+                          className='px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs font-medium'
+                        >
                           {tech}
                         </span>
                       ))}
@@ -400,11 +428,14 @@ export default function TechnicalImplementationSection() {
                   </div>
 
                   <div>
-                    <h6 className="text-sm font-medium text-gray-700 mb-2">Asosiy Vazifalar:</h6>
-                    <ul className="space-y-2">
+                    <h6 className='text-sm font-medium text-gray-700 mb-2'>Asosiy Vazifalar:</h6>
+                    <ul className='space-y-2'>
                       {component.tasks.map((task, taskIndex) => (
-                        <li key={taskIndex} className="flex items-start space-x-2 text-sm text-gray-600">
-                          <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-1.5 flex-shrink-0"></div>
+                        <li
+                          key={taskIndex}
+                          className='flex items-start space-x-2 text-sm text-gray-600'
+                        >
+                          <div className='w-1.5 h-1.5 bg-blue-500 rounded-full mt-1.5 shrink-0'></div>
                           <span>{task}</span>
                         </li>
                       ))}
@@ -417,29 +448,40 @@ export default function TechnicalImplementationSection() {
         </div>
 
         {/* AI Technologies Section */}
-        <div className="mb-20">
-          <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            AI <span className="text-blue-600">Texnologiyalari</span>
+        <div className='mb-20'>
+          <h3 className='text-3xl font-bold text-center text-gray-900 mb-12'>
+            AI <span className='text-blue-600'>Texnologiyalari</span>
           </h3>
-          
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
             {aiTechnologies.map((category, index) => (
-              <div key={index} className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200">
-                <h4 className="text-xl font-bold text-gray-900 mb-6 text-center">{category.category}</h4>
-                <div className="space-y-6">
+              <div
+                key={index}
+                className='bg-white rounded-2xl shadow-lg p-6 border border-gray-200'
+              >
+                <h4 className='text-xl font-bold text-gray-900 mb-6 text-center'>
+                  {category.category}
+                </h4>
+                <div className='space-y-6'>
                   {category.models.map((model, modelIndex) => (
-                    <div key={modelIndex} className="bg-gray-50 rounded-xl p-4 border border-gray-200">
-                      <h5 className="font-semibold text-gray-900 mb-2">{model.name}</h5>
-                      <p className="text-gray-600 text-sm mb-3">{model.purpose}</p>
-                      <div className="mb-3">
-                        <span className="text-xs font-medium text-blue-600 bg-blue-100 px-2 py-1 rounded">
+                    <div
+                      key={modelIndex}
+                      className='bg-gray-50 rounded-xl p-4 border border-gray-200'
+                    >
+                      <h5 className='font-semibold text-gray-900 mb-2'>{model.name}</h5>
+                      <p className='text-gray-600 text-sm mb-3'>{model.purpose}</p>
+                      <div className='mb-3'>
+                        <span className='text-xs font-medium text-blue-600 bg-blue-100 px-2 py-1 rounded'>
                           Qoʻllanilishi: {model.application}
                         </span>
                       </div>
-                      <ul className="space-y-1">
+                      <ul className='space-y-1'>
                         {model.advantages.map((advantage, advIndex) => (
-                          <li key={advIndex} className="flex items-start space-x-2 text-xs text-gray-600">
-                            <div className="w-1 h-1 bg-green-500 rounded-full mt-1.5 flex-shrink-0"></div>
+                          <li
+                            key={advIndex}
+                            className='flex items-start space-x-2 text-xs text-gray-600'
+                          >
+                            <div className='w-1 h-1 bg-green-500 rounded-full mt-1.5 shrink-0'></div>
                             <span>{advantage}</span>
                           </li>
                         ))}
@@ -453,31 +495,38 @@ export default function TechnicalImplementationSection() {
         </div>
 
         {/* Tech Stack Overview */}
-        <div className="mb-20">
-          <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Texnologik <span className="text-blue-600">Stack</span>
+        <div className='mb-20'>
+          <h3 className='text-3xl font-bold text-center text-gray-900 mb-12'>
+            Texnologik <span className='text-blue-600'>Stack</span>
           </h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
             {Object.entries(techStack).map(([category, technologies]) => (
-              <div key={category} className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">
-                    {category === 'frontend' ? '🎨' : 
-                     category === 'backend' ? '⚙️' : 
-                     category === 'ai' ? '🧠' : '🏗️'}
+              <div
+                key={category}
+                className='bg-white rounded-2xl shadow-lg p-6 border border-gray-200 text-center'
+              >
+                <div className='w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-4'>
+                  <span className='text-2xl'>
+                    {category === 'frontend'
+                      ? '🎨'
+                      : category === 'backend'
+                      ? '⚙️'
+                      : category === 'ai'
+                      ? '🧠'
+                      : '🏗️'}
                   </span>
                 </div>
-                <h4 className="text-lg font-semibold text-gray-900 mb-4 capitalize">
+                <h4 className='text-lg font-semibold text-gray-900 mb-4 capitalize'>
                   {category.replace(/([A-Z])/g, ' $1').trim()}
                 </h4>
-                <div className="space-y-2 text-sm text-gray-600">
+                <div className='space-y-2 text-sm text-gray-600'>
                   {Object.entries(technologies).map(([key, value]) => (
-                    <div key={key} className="text-center">
-                      <div className="font-medium text-gray-700 capitalize">
+                    <div key={key} className='text-center'>
+                      <div className='font-medium text-gray-700 capitalize'>
                         {key.replace(/([A-Z])/g, ' $1').trim()}:
                       </div>
-                      <div className="text-gray-600">{value}</div>
+                      <div className='text-gray-600'>{value}</div>
                     </div>
                   ))}
                 </div>
@@ -487,45 +536,53 @@ export default function TechnicalImplementationSection() {
         </div>
 
         {/* Data Processing Pipeline */}
-        <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
-          <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Maʼlumotlarni Qayta Ishlash <span className="text-blue-600">Pipelinesi</span>
+        <div className='bg-white rounded-2xl shadow-xl p-8 border border-gray-200'>
+          <h3 className='text-3xl font-bold text-center text-gray-900 mb-12'>
+            Maʼlumotlarni Qayta Ishlash <span className='text-blue-600'>Pipelinesi</span>
           </h3>
-          
-          <div className="relative">
+
+          <div className='relative'>
             {/* Connection Lines */}
-            <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gray-200 transform -translate-y-1/2 hidden lg:block"></div>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 relative">
+            <div className='absolute top-1/2 left-0 right-0 h-0.5 bg-gray-200 transform -translate-y-1/2 hidden lg:block'></div>
+
+            <div className='grid grid-cols-1 lg:grid-cols-5 gap-6 relative'>
               {dataProcessingPipeline.map((stage, index) => (
-                <div key={index} className="text-center relative">
+                <div key={index} className='text-center relative'>
                   {/* Stage Number */}
-                  <div className="w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-lg font-bold relative z-10">
+                  <div className='w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-lg font-bold relative z-10'>
                     {index + 1}
                   </div>
-                  
+
                   {/* Stage Content */}
-                  <div className="bg-gray-50 rounded-xl p-6 border border-gray-200 h-full">
-                    <h4 className="font-semibold text-gray-900 mb-3">{stage.stage}</h4>
-                    <p className="text-gray-600 text-sm mb-4">{stage.description}</p>
-                    
-                    <div className="mb-4">
-                      <h5 className="text-xs font-medium text-gray-700 mb-2">Texnologiyalar:</h5>
-                      <div className="flex flex-wrap gap-1 justify-center">
+                  <div className='bg-gray-50 rounded-xl p-6 border border-gray-200 h-full'>
+                    <h4 className='font-semibold text-gray-900 mb-3'>{stage.stage}</h4>
+                    <p className='text-gray-600 text-sm mb-4'>{stage.description}</p>
+
+                    <div className='mb-4'>
+                      <h5 className='text-xs font-medium text-gray-700 mb-2'>Texnologiyalar:</h5>
+                      <div className='flex flex-wrap gap-1 justify-center'>
                         {stage.technologies.map((tech, techIndex) => (
-                          <span key={techIndex} className="px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs">
+                          <span
+                            key={techIndex}
+                            className='px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs'
+                          >
                             {tech}
                           </span>
                         ))}
                       </div>
                     </div>
-                    
+
                     <div>
-                      <h5 className="text-xs font-medium text-gray-700 mb-2">Qayta Ishlanadigan Maʼlumotlar:</h5>
-                      <ul className="space-y-1 text-xs text-gray-600">
+                      <h5 className='text-xs font-medium text-gray-700 mb-2'>
+                        Qayta Ishlanadigan Maʼlumotlar:
+                      </h5>
+                      <ul className='space-y-1 text-xs text-gray-600'>
                         {stage.data.map((item, itemIndex) => (
-                          <li key={itemIndex} className="flex items-center justify-center space-x-1">
-                            <div className="w-1 h-1 bg-green-500 rounded-full"></div>
+                          <li
+                            key={itemIndex}
+                            className='flex items-center justify-center space-x-1'
+                          >
+                            <div className='w-1 h-1 bg-green-500 rounded-full'></div>
                             <span>{item}</span>
                           </li>
                         ))}
@@ -539,26 +596,30 @@ export default function TechnicalImplementationSection() {
         </div>
 
         {/* Key Differentiators */}
-        <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Bizning Texnik Afzalliklarimiz
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <div className="text-center">
-                <div className="text-3xl mb-2">🎯</div>
-                <h4 className="font-semibold mb-2">AI First Approach</h4>
-                <p className="text-blue-100 text-sm">Har bir komponent AI va maʼlumotlar qayta ishlashga asoslangan</p>
+        <div className='text-center mt-16'>
+          <div className='bg-linear-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white'>
+            <h3 className='text-2xl md:text-3xl font-bold mb-4'>Bizning Texnik Afzalliklarimiz</h3>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto'>
+              <div className='text-center'>
+                <div className='text-3xl mb-2'>🎯</div>
+                <h4 className='font-semibold mb-2'>AI First Approach</h4>
+                <p className='text-blue-100 text-sm'>
+                  Har bir komponent AI va maʼlumotlar qayta ishlashga asoslangan
+                </p>
               </div>
-              <div className="text-center">
-                <div className="text-3xl mb-2">⚡</div>
-                <h4 className="font-semibold mb-2">Real-time Processing</h4>
-                <p className="text-blue-100 text-sm">Darhol javob beradigan bashoratlar va vizualizatsiya</p>
+              <div className='text-center'>
+                <div className='text-3xl mb-2'>⚡</div>
+                <h4 className='font-semibold mb-2'>Real-time Processing</h4>
+                <p className='text-blue-100 text-sm'>
+                  Darhol javob beradigan bashoratlar va vizualizatsiya
+                </p>
               </div>
-              <div className="text-center">
-                <div className="text-3xl mb-2">🛡️</div>
-                <h4 className="font-semibold mb-2">Privacy by Design</h4>
-                <p className="text-blue-100 text-sm">Maxfiylik va xavfsizlik har bir bosqichda kafolatlangan</p>
+              <div className='text-center'>
+                <div className='text-3xl mb-2'>🛡️</div>
+                <h4 className='font-semibold mb-2'>Privacy by Design</h4>
+                <p className='text-blue-100 text-sm'>
+                  Maxfiylik va xavfsizlik har bir bosqichda kafolatlangan
+                </p>
               </div>
             </div>
           </div>

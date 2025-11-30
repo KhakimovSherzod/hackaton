@@ -25,16 +25,11 @@ const Participants = () => {
         "AI sog'liq platformasi uchun frontend interfeysini ishlab chiqish. Raqamli egza vizualizatsiyasi va foydalanuvchi interfeysini yaratish.",
       rasm: '👨‍💻',
       rang: 'from-blue-500 to-cyan-500',
-      havolalar: {
-        linkedin: 'https://linkedin.com/in/sherzod-khakimov',
-        github: 'https://github.com/sherzodkhakimov',
-        portfolio: 'https://sherzodkhakimov.uz',
-      },
     },
     {
       id: 2,
       ism: 'Jasur',
-      yosh: 25,
+      yosh: 20,
       rol: 'AI/ML Mutaxassisi',
       tajriba: '4 yillik tajriba',
       konikmalar: [
@@ -56,15 +51,11 @@ const Participants = () => {
         "Sog'liqni bashoratlash va risk baholash uchun sun'iy intellekt modellarini ishlab chiqish va trening qilish. Vaqt seriyali sog'liq ma'lumotlari bilan ishlash.",
       rasm: '🤖',
       rang: 'from-purple-500 to-pink-500',
-      havolalar: {
-        linkedin: 'https://linkedin.com/in/jasur-ai',
-        github: 'https://github.com/jasur-ai',
-      },
     },
     {
       id: 3,
       ism: 'Sherzod',
-      yosh: 24,
+      yosh: 20,
       rol: 'DevOps & Kiberxavfsizlik Mutaxassisi',
       tajriba: '4 yillik tajriba',
       konikmalar: [
@@ -86,10 +77,6 @@ const Participants = () => {
         "Tizim infratuzilmasini boshqarish va ma'lumotlar xavfsizligini ta'minlash. Tibbiy ma'lumotlarning maxfiyligi va tizimning ishonchliligini kafolatlaydi.",
       rasm: '🔒',
       rang: 'from-green-500 to-emerald-500',
-      havolalar: {
-        linkedin: 'https://linkedin.com/in/sherzod-devops',
-        github: 'https://github.com/sherzod-devops',
-      },
     },
   ]
 
@@ -114,7 +101,7 @@ const Participants = () => {
   ]
 
   return (
-    <section id='jamoa' className='py-20 bg-gradient-to-br from-gray-50 to-blue-50'>
+    <section id='jamoa' className='py-20 bg-linear-to-br from-gray-50 to-blue-50'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         {/* Sarlavha */}
         <div className='text-center mb-16'>
@@ -122,7 +109,7 @@ const Participants = () => {
             Bizning <span className='text-blue-600'>Professional Jamoa</span>
           </h2>
           <p className='text-xl text-gray-600 max-w-3xl mx-auto'>
-            Sog'liqni saqlash texnologiyalari sohasida innovatsion yechimlar yaratish uchun
+            Sog&apos;liqni saqlash texnologiyalari sohasida innovatsion yechimlar yaratish uchun
             tajribali mutaxassislardan iborat jamoa
           </p>
         </div>
@@ -148,7 +135,7 @@ const Participants = () => {
               className='bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2'
             >
               {/* Gradient sarlavha */}
-              <div className={`bg-gradient-to-r ${azolar.rang} p-6 text-white`}>
+              <div className={`bg-linear-to-r ${azolar.rang} p-6 text-white`}>
                 <div className='flex items-center space-x-4'>
                   <div className='text-4xl'>{azolar.rasm}</div>
                   <div>
@@ -171,7 +158,7 @@ const Participants = () => {
 
                 {/* Asosiy ko'nikmalar */}
                 <div className='space-y-3 mb-4'>
-                  <h5 className='font-medium text-gray-900 text-sm'>Asosiy Ko'nikmalar:</h5>
+                  <h5 className='font-medium text-gray-900 text-sm'>Asosiy Ko&apos;nikmalar:</h5>
                   <div className='flex flex-wrap gap-2'>
                     {azolar.konikmalar.map((konikma, index) => (
                       <span
@@ -198,53 +185,9 @@ const Participants = () => {
                     ))}
                   </div>
                 </div>
-
-                {/* Havolalar */}
-                <div className='mt-4 pt-4 border-t border-gray-200'>
-                  <div className='flex space-x-4'>
-                    {azolar.havolalar.linkedin && (
-                      <a
-                        href={azolar.havolalar.linkedin}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='text-blue-600 hover:text-blue-700 transition-colors'
-                      >
-                        <span className='text-sm font-medium'>LinkedIn</span>
-                      </a>
-                    )}
-                    {azolar.havolalar.github && (
-                      <a
-                        href={azolar.havolalar.github}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='text-gray-600 hover:text-gray-700 transition-colors'
-                      >
-                        <span className='text-sm font-medium'>GitHub</span>
-                      </a>
-                    )}
-                    {azolar.havolalar.portfolio && (
-                      <a
-                        href={azolar.havolalar.portfolio}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='text-green-600 hover:text-green-700 transition-colors'
-                      >
-                        <span className='text-sm font-medium'>Portfolio</span>
-                      </a>
-                    )}
-                  </div>
-                </div>
               </div>
 
-              {/* Sherzod uchun maxsus belgi */}
-              {azolar.id === 1 && (
-                <div className='bg-yellow-50 border-t border-yellow-200 px-6 py-3'>
-                  <div className='flex items-center space-x-2'>
-                    <span className='text-yellow-600'>⭐</span>
-                    <span className='text-yellow-800 text-sm font-medium'>Frontend Team Lead</span>
-                  </div>
-                </div>
-              )}
+            
             </div>
           ))}
         </div>
@@ -294,7 +237,7 @@ const Participants = () => {
               <h4 className='text-lg font-semibold text-gray-900 mb-2'>Frontend Rivojlantirish</h4>
               <p className='text-gray-600 text-sm mb-3'>
                 Foydalanuvchi interfeysi va raqamli egza vizualizatsiyasini yaratish. Real-vaqt
-                ma'lumotlarini ko'rsatish va interaktiv tajriba.
+                ma&apos;lumotlarini ko&apos;rsatish va interaktiv tajriba.
               </p>
               <div className='space-y-1 text-xs text-gray-500'>
                 <div>• React/Next.js dasturi</div>
@@ -310,13 +253,13 @@ const Participants = () => {
               </div>
               <h4 className='text-lg font-semibold text-gray-900 mb-2'>AI & Backend</h4>
               <p className='text-gray-600 text-sm mb-3'>
-                Sun'iy intellekt modellari va server qismini ishlab chiqish. Sog'liq ma'lumotlarini
+                Sun&apos;iy intellekt modellari va server qismini ishlab chiqish. Sog&apos;liq ma&apos;lumotlarini
                 qayta ishlash va bashoratlar yaratish.
               </p>
               <div className='space-y-1 text-xs text-gray-500'>
                 <div>• Machine Learning modellari</div>
-                <div>• Ma'lumotlar tahlili</div>
-                <div>• API va ma'lumotlar bazasi</div>
+                <div>• Ma&apos;lumotlar tahlili</div>
+                <div>• API va ma&apos;lumotlar bazasi</div>
               </div>
             </div>
 
@@ -327,8 +270,8 @@ const Participants = () => {
               </div>
               <h4 className='text-lg font-semibold text-gray-900 mb-2'>DevOps & Xavfsizlik</h4>
               <p className='text-gray-600 text-sm mb-3'>
-                Infratuzilma, xavfsizlik va deploy. Tibbiy ma'lumotlarning maxfiyligi va tizimning
-                ishonchliligini ta'minlash.
+                Infratuzilma, xavfsizlik va deploy. Tibbiy ma&apos;lumotlarning maxfiyligi va tizimning
+                ishonchliligini ta&apos;minlash.
               </p>
               <div className='space-y-1 text-xs text-gray-500'>
                 <div>• Cloud infratuzilma</div>

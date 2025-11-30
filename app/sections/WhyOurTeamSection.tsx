@@ -125,7 +125,7 @@ export default function WhyOurTeamSection() {
   const activeStrength = strengths.find(strength => strength.id === activeTab)
 
   return (
-    <section id="why-our-team" className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+    <section id="why-our-team" className="py-20 bg-linear-to-br from-slate-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Header */}
@@ -189,7 +189,7 @@ export default function WhyOurTeamSection() {
               <div className="space-y-4">
                 {activeStrength?.points.map((point, index) => (
                   <div key={index} className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full mt-3 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-blue-500 rounded-full mt-3 shrink-0"></div>
                     <p className="text-gray-700 text-lg leading-relaxed">{point}</p>
                   </div>
                 ))}
@@ -279,7 +279,7 @@ export default function WhyOurTeamSection() {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
+          <div className="bg-linear-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
               Loyihangizni Boshlaymizmi?
             </h3>
@@ -292,7 +292,7 @@ export default function WhyOurTeamSection() {
                 Maslahat Olish
               </button>
               <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors duration-200">
-                Loyihalarimizni Ko'rish
+                Loyihalarimizni Ko&apos;rish
               </button>
             </div>
           </div>

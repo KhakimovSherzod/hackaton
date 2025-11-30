@@ -7,7 +7,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 export default function AdvancedHealthDashboard() {
   const [currentModel, setCurrentModel] = useState(0)
   const [currentView, setCurrentView] = useState('overview')
-  const [isLoading, setIsLoading] = useState(true)
+  const [isLoading] = useState(true)
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
   const models = [
@@ -57,8 +57,6 @@ export default function AdvancedHealthDashboard() {
   // Three.js Scene
   useEffect(() => {
     if (!canvasRef.current) return
-
-    setIsLoading(true)
 
     // Scene setup
     const scene = new THREE.Scene()
@@ -315,8 +313,6 @@ export default function AdvancedHealthDashboard() {
     }
 
     animate()
-    setIsLoading(false)
-
     // Handle resize
     const handleResize = () => {
       if (!canvasRef.current) return
@@ -496,26 +492,26 @@ export default function AdvancedHealthDashboard() {
               </h3>
               <div className='space-y-3'>
                 <div className='flex items-start space-x-3'>
-                  <div className='w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0'></div>
+                  <div className='w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0'></div>
                   <p className='text-gray-300 text-sm'>
                     Yurak urish tezligi normal doirada. Muntazam mashqlarni davom ettiring.
                   </p>
                 </div>
                 <div className='flex items-start space-x-3'>
-                  <div className='w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0'></div>
+                  <div className='w-2 h-2 bg-yellow-400 rounded-full mt-2 shrink-0'></div>
                   <p className='text-gray-300 text-sm'>
                     Stress darajasi oʻrtacha. Dam olish va meditatsiya qilish tavsiya etiladi.
                   </p>
                 </div>
                 <div className='flex items-start space-x-3'>
-                  <div className='w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0'></div>
+                  <div className='w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0'></div>
                   <p className='text-gray-300 text-sm'>
                     Nafas olish tizimi yaxshi holatda. Havoni tozaligiga eʼtibor bering.
                   </p>
                 </div>
               </div>
             </div>
-            </div>
+          </div>
         </div>
 
         {/* Features Section */}
