@@ -8,151 +8,151 @@ export default function Roadmap() {
   const developmentStages = [
     {
       id: 'idea',
-      name: 'Gʻoya / Prototip',
+      name: 'Идея / Прототип',
       status: 'completed',
-      description: 'Asosiy kontseptsiya va AI arxitekturasini ishlab chiqish',
-      timeline: '1-2 oy',
+      description: 'Разработка основной концепции и архитектуры ИИ',
+      timeline: '1-2 месяца',
       features: [
-        'Raqamli egza kontseptsiyasini ishlab chiqish',
-        'AI model arxitekturasini loyihalash',
-        'Dastlabki maʼlumotlar toʻplash strategiyasi',
-        '3D vizualizatsiya prototipi'
+        'Разработка концепции цифрового двойника',
+        'Проектирование архитектуры ИИ моделей',
+        'Стратегия сбора первоначальных данных',
+        'Прототип 3D визуализации'
       ],
       achievements: [
-        'AI model loyihasi tasdiqlandi',
-        '3D vizualizatsiya prototipi yaratildi',
-        'Dastlabki maʼlumotlar bazasi tuzildi'
+        'Утвержден проект ИИ моделей',
+        'Создан прототип 3D визуализации',
+        'Сформирована первоначальная база данных'
       ]
     },
     {
       id: 'prototype',
-      name: 'Prototip',
+      name: 'Прототип',
       status: 'completed',
-      description: 'Asosiy AI modellari va 3D vizualizatsiyani ishlab chiqish',
-      timeline: '3-4 oy',
+      description: 'Разработка основных ИИ моделей и 3D визуализации',
+      timeline: '3-4 месяца',
       features: [
-        'Health Condition Estimation Model',
-        'Risk Prediction Engine prototipi',
-        '3D raqamli egza vizualizatsiyasi',
-        'Asosiy biomerkerlarni qayta ishlash'
+        'Модель оценки состояния здоровья',
+        'Прототип системы прогнозирования рисков',
+        '3D визуализация цифрового двойника',
+        'Обработка основных биомаркеров'
       ],
       achievements: [
-        'Yurak holati bashorat modeli ishga tushirildi',
-        '3D avatarning dastlabki versiyasi yaratildi',
-        'Real-vaqtda maʼlumotlarni qayta ishlash tizimi'
+        'Запущена модель прогнозирования состояния сердца',
+        'Создана первая версия 3D аватара',
+        'Система обработки данных в реальном времени'
       ]
     },
     {
       id: 'mvp',
-      name: 'MVP (Minimal Viable Product)',
+      name: 'MVP (Минимальный Жизнеспособный Продукт)',
       status: 'current',
-      description: 'Asosiy funksionallik bilan ishlaydigan mahsulot versiyasi',
-      timeline: '5-8 oy',
+      description: 'Рабочая версия продукта с основной функциональностью',
+      timeline: '5-8 месяцев',
       features: [
-        'Toʻliq raqamli egza platformasi',
-        '4 asosiy bashorat moduli',
-        'Real-vaqtda 3D vizualizatsiya',
-        'Shaxsiy tavsiyalar tizimi',
-        'Mobil interfeys va API'
+        'Полноценная платформа цифрового двойника',
+        '4 основных модуля прогнозирования',
+        '3D визуализация в реальном времени',
+        'Система персональных рекомендаций',
+        'Мобильный интерфейс и API'
       ],
       achievements: [
-        'Platforma foydalanuvchilar uchun ochildi',
-        'Birinchi 1000 foydalanuvchi',
-        '98% bashorat aniqligi'
+        'Платформа открыта для пользователей',
+        'Первые 1000 пользователей',
+        '98% точность прогнозирования'
       ]
     },
     {
       id: 'launched',
-      name: 'Ishga Tushirilgan',
+      name: 'Запущенный Продукт',
       status: 'upcoming',
-      description: 'Toʻliq miqyosdagi platforma va yangi xususiyatlar',
-      timeline: '9-12 oy',
+      description: 'Полномасштабная платформа и новые функции',
+      timeline: '9-12 месяцев',
       features: [
-        'Kengaytirilgan biomerkerlar qoʻshish',
-        'Genetika maʼlumotlarini integratsiya qilish',
-        'Wearable qurilmalar bilan toʻliq integratsiya',
-        'Xalqaro miqyosga chiqish',
-        'Enterprise versiyasi'
+        'Добавление расширенных биомаркеров',
+        'Интеграция генетических данных',
+        'Полная интеграция с носимых устройствами',
+        'Выход на международный уровень',
+        'Enterprise версия'
       ],
       achievements: [
-        '10,000+ faol foydalanuvchi',
-        'Xalqaro sertifikatlar',
-        'Yirik tibbiyot markazlari bilan hamkorlik'
+        '10,000+ активных пользователей',
+        'Международные сертификаты',
+        'Партнерство с крупными медицинскими центрами'
       ]
     }
   ]
 
   const mvpFeatures = [
     {
-      category: 'AI Asosiy Modullari',
+      category: 'Основные Модули ИИ',
       features: [
         {
-          name: 'Health Condition Estimation',
-          description: 'Yurak holati, stress, charchoq va tiklanish darajasini baholash',
+          name: 'Оценка Состояния Здоровья',
+          description: 'Оценка состояния сердца, стресса, усталости и уровня восстановления',
           status: 'completed',
           tech: ['PyTorch', 'LSTM', 'GRU Networks']
         },
         {
-          name: 'Risk Prediction Engine',
-          description: '24 soatlik insult, uyqu buzilishi va ortiqcha mashqlash xavfini bashorat qilish',
+          name: 'Система Прогнозирования Рисков',
+          description: 'Прогнозирование риска инсульта, нарушений сна и чрезмерных нагрузок на 24 часа',
           status: 'completed',
           tech: ['LightGBM', '1D-CNN', 'Ensemble Learning']
         },
         {
-          name: 'Digital Twin AI',
-          description: 'Biomerkerlar asosida shaxsiy raqamli egza yaratish',
+          name: 'ИИ Цифрового Двойника',
+          description: 'Создание персонального цифрового двойника на основе биомаркеров',
           status: 'in-progress',
           tech: ['Neural Networks', 'Biomarker Fusion']
         },
         {
-          name: 'Recommendation AI',
-          description: 'Shaxsiylashtirilgan sogʻlom turmush tarzi tavsiyalari',
+          name: 'Рекомендательный ИИ',
+          description: 'Персонализированные рекомендации по здоровому образу жизни',
           status: 'in-progress',
           tech: ['Reinforcement Learning', 'Personalized ML']
         }
       ]
     },
     {
-      category: 'Vizualizatsiya va Interfeys',
+      category: 'Визуализация и Интерфейс',
       features: [
         {
-          name: '3D Raqamli Egza',
-          description: 'Real-vaqtda yurak urishi, stress va holatni koʻrsatuvchi interaktiv avatar',
+          name: '3D Цифровой Двойник',
+          description: 'Интерактивный аватар, показывающий сердцебиение, стресс и состояние в реальном времени',
           status: 'completed',
           tech: ['Three.js', 'WebGL', 'Real-time Rendering']
         },
         {
-          name: 'Health Forecast 24h',
-          description: 'Keyingi 24 soat uchun HRV, uyqu sifatini bashorat qilish paneli',
+          name: 'Прогноз Здоровья на 24ч',
+          description: 'Панель прогнозирования HRV, качества сна на следующие 24 часа',
           status: 'in-progress',
           tech: ['React', 'Recharts', 'D3.js']
         },
         {
-          name: 'Risk Meter Dashboard',
-          description: 'Xavf koʻrsatkichlari va ogohlantirishlar tizimi',
+          name: 'Панель Управления Рисками',
+          description: 'Система показателей рисков и предупреждений',
           status: 'in-progress',
           tech: ['Next.js', 'WebSocket', 'Real-time Alerts']
         }
       ]
     },
     {
-      category: 'Maʼlumotlar va Integratsiya',
+      category: 'Данные и Интеграция',
       features: [
         {
-          name: 'Multi-source Data Fusion',
-          description: 'Turli manbalardan biomerkerlarni birlashtirish va tahlil qilish',
+          name: 'Слияние Данных из Множества Источников',
+          description: 'Объединение и анализ биомаркеров из различных источников',
           status: 'completed',
           tech: ['Data Pipeline', 'ETL Processes', 'API Integration']
         },
         {
-          name: 'Wearable Devices API',
-          description: 'Apple Watch, Fitbit va boshqa qurilmalar bilan integratsiya',
+          name: 'API Носимых Устройств',
+          description: 'Интеграция с Apple Watch, Fitbit и другими устройствами',
           status: 'in-progress',
           tech: ['REST API', 'OAuth2', 'Webhooks']
         },
         {
-          name: 'Real-time Analytics',
-          description: 'Darhol javob beradigan tahlil va vizualizatsiya',
+          name: 'Аналитика в Реальном Времени',
+          description: 'Мгновенная аналитика и визуализация',
           status: 'completed',
           tech: ['Redis', 'WebSocket', 'FastAPI']
         }
@@ -162,62 +162,62 @@ export default function Roadmap() {
 
   const technologyStack = [
     {
-      category: 'Frontend',
+      category: 'Фронтенд',
       technologies: [
-        { name: 'React / Next.js', purpose: 'Asosiy foydalanuvchi interfeysi' },
-        { name: 'TypeScript', purpose: 'Type xavfsizligi va katta miqyosli rivojlanish' },
-        { name: 'Three.js', purpose: '3D raqamli egza vizualizatsiyasi' },
-        { name: 'Tailwind CSS', purpose: 'Zamonaviy va responsive dizayn' },
-        { name: 'Recharts / D3.js', purpose: 'Analitika va bashorat grafiklari' }
+        { name: 'React / Next.js', purpose: 'Основной пользовательский интерфейс' },
+        { name: 'TypeScript', purpose: 'Типобезопасность и масштабируемая разработка' },
+        { name: 'Three.js', purpose: '3D визуализация цифрового двойника' },
+        { name: 'Tailwind CSS', purpose: 'Современный и адаптивный дизайн' },
+        { name: 'Recharts / D3.js', purpose: 'Графики аналитики и прогнозирования' }
       ]
     },
     {
-      category: 'Backend & AI',
+      category: 'Бэкенд & ИИ',
       technologies: [
-        { name: 'FastAPI', purpose: 'Yuqori samarali Python backend' },
-        { name: 'PyTorch', purpose: 'Deep learning modellari va bashoratlar' },
-        { name: 'LSTM / GRU Networks', purpose: 'Vaqt seriyali biomerkerlarni tahlil qilish' },
-        { name: 'LightGBM', purpose: 'Xavf bashorati va klassifikatsiya' },
-        { name: '1D-CNN', purpose: 'Biomerkerlarning murakkab naqshlarini aniqlash' }
+        { name: 'FastAPI', purpose: 'Высокопроизводительный Python бэкенд' },
+        { name: 'PyTorch', purpose: 'Модели глубокого обучения и прогнозирования' },
+        { name: 'LSTM / GRU Networks', purpose: 'Анализ временных рядов биомаркеров' },
+        { name: 'LightGBM', purpose: 'Прогнозирование рисков и классификация' },
+        { name: '1D-CNN', purpose: 'Обнаружение сложных паттернов в биомаркерах' }
       ]
     },
     {
-      category: 'Maʼlumotlar Bazasi & Infratuzilma',
+      category: 'Базы Данных & Инфраструктура',
       technologies: [
-        { name: 'PostgreSQL', purpose: 'Asosiy maʼlumotlar bazasi' },
-        { name: 'Redis', purpose: 'Real-vaqtda keshlash va sessiya boshqaruvi' },
-        { name: 'Docker & Docker Compose', purpose: 'Konteynerizatsiya va deploy' },
-        { name: 'AWS / Google Cloud', purpose: 'Cloud infratuzilma va masshtablanuvchanlik' }
+        { name: 'PostgreSQL', purpose: 'Основная база данных' },
+        { name: 'Redis', purpose: 'Кэширование в реальном времени и управление сессиями' },
+        { name: 'Docker & Docker Compose', purpose: 'Контейнеризация и развертывание' },
+        { name: 'AWS / Google Cloud', purpose: 'Облачная инфраструктура и масштабируемость' }
       ]
     }
   ]
 
   const nextSteps = [
     {
-      phase: 'Qisqa Muddat (3 oy)',
+      phase: 'Краткосрочные (3 месяца)',
       goals: [
-        'MVP ni yakunlash va test foydalanuvchilarni jalb qilish',
-        'Bashorat modellarining aniqligini 95% dan yuqori darajaga olib chiqish',
-        'Mobil ilova versiyasini ishlab chiqish',
-        'Dastlabki 1000 foydalanuvchini qoʻlga kiritish'
+        'Завершение MVP и привлечение тестовых пользователей',
+        'Повышение точности моделей прогнозирования выше 95%',
+        'Разработка мобильной версии приложения',
+        'Привлечение первых 1000 пользователей'
       ]
     },
     {
-      phase: 'Oʻrta Muddat (6-9 oy)',
+      phase: 'Среднесрочные (6-9 месяцев)',
       goals: [
-        'Genetika maʼlumotlarini integratsiya qilish',
-        'Xalqaro tibbiy sertifikatlar olish (HIPAA, ISO)',
-        'Yirik tibbiyot markazlari bilan hamkorlik boshlash',
-        'Platformani 10,000+ foydalanuvchi miqyosiga olib chiqish'
+        'Интеграция генетических данных',
+        'Получение международных медицинских сертификатов (HIPAA, ISO)',
+        'Начало партнерства с крупными медицинскими центрами',
+        'Масштабирование платформы до 10,000+ пользователей'
       ]
     },
     {
-      phase: 'Uzoq Muddat (12-18 oy)',
+      phase: 'Долгосрочные (12-18 месяцев)',
       goals: [
-        'AI modellarini uzluksiz oʻrganish va takomillashtirish',
-        'Xalqaro bozorga chiqish va lokalizatsiya',
-        'Enterprise versiyasini ishlab chiqish',
-        'Ilmiy tadqiqotlar va klinik sinovlar oʻtkazish'
+        'Непрерывное обучение и улучшение ИИ моделей',
+        'Выход на международный рынок и локализация',
+        'Разработка Enterprise версии',
+        'Проведение научных исследований и клинических испытаний'
       ]
     }
   ]
@@ -231,22 +231,22 @@ export default function Roadmap() {
         {/* Main Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 bg-blue-500/20 text-blue-300 rounded-full text-sm font-medium mb-4 border border-blue-500/30">
-            🗺️ Yo&apos;l Xaritasi & Rivojlanish Bosqichlari
+            🗺️ Дорожная Карта & Этапы Развития
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Bizning <span className="bg-linear-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-              Rivojlanish Yo&apos;limiz
+            Наш <span className="bg-linear-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+              Путь Развития
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Raqamli egza platformasini g&apos;oyadan to&apos;liq miqyosli mahsulotgacha rivojlantirish jarayoni
+            Процесс разработки платформы цифрового двойника от идеи до полноценного продукта
           </p>
         </div>
 
         {/* Development Stages Timeline */}
         <div className="mb-20">
           <div className="flex flex-col md:flex-row justify-between items-center mb-8">
-            <h3 className="text-2xl font-bold mb-4 md:mb-0">Rivojlanish Bosqichlari</h3>
+            <h3 className="text-2xl font-bold mb-4 md:mb-0">Этапы Разработки</h3>
             <div className="flex space-x-2 bg-gray-800 rounded-lg p-1">
               {developmentStages.map((stage) => (
                 <button
@@ -277,8 +277,8 @@ export default function Roadmap() {
                       currentStageData?.status === 'current' ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30' :
                       'bg-purple-500/20 text-purple-400 border border-purple-500/30'
                     }`}>
-                      {currentStageData?.status === 'completed' ? 'Yakunlangan' :
-                       currentStageData?.status === 'current' ? 'Joriy' : 'Keyingi'}
+                      {currentStageData?.status === 'completed' ? 'Завершен' :
+                       currentStageData?.status === 'current' ? 'Текущий' : 'Следующий'}
                     </span>
                   </div>
                   <p className="text-gray-300 mb-4">{currentStageData?.description}</p>
@@ -295,7 +295,7 @@ export default function Roadmap() {
                   <div>
                     <h5 className="font-semibold text-lg mb-4 flex items-center">
                       <span className="text-green-400 mr-2">✅</span>
-                      Xususiyatlar
+                      Функциональность
                     </h5>
                     <ul className="space-y-3">
                       {currentStageData?.features.map((feature, index) => (
@@ -309,7 +309,7 @@ export default function Roadmap() {
                   <div>
                     <h5 className="font-semibold text-lg mb-4 flex items-center">
                       <span className="text-yellow-400 mr-2">🏆</span>
-                      Erishilgan Natijalar
+                      Достигнутые Результаты
                     </h5>
                     <ul className="space-y-3">
                       {currentStageData?.achievements.map((achievement, index) => (
@@ -329,7 +329,7 @@ export default function Roadmap() {
         {/* MVP Features Detail */}
         <div className="mb-20">
           <h3 className="text-3xl font-bold text-center mb-12">
-            MVP <span className="text-cyan-400">Xususiyatlari</span>
+            Функциональность <span className="text-cyan-400">MVP</span>
           </h3>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -345,7 +345,7 @@ export default function Roadmap() {
                           feature.status === 'completed' ? 'bg-green-500/20 text-green-400' :
                           'bg-blue-500/20 text-blue-400'
                         }`}>
-                          {feature.status === 'completed' ? 'Yakunlangan' : 'Ish Jarayonida'}
+                          {feature.status === 'completed' ? 'Завершен' : 'В Процессе'}
                         </span>
                       </div>
                       <p className="text-gray-300 text-sm mb-3">{feature.description}</p>
@@ -367,7 +367,7 @@ export default function Roadmap() {
         {/* Technology Stack */}
         <div className="mb-20">
           <h3 className="text-3xl font-bold text-center mb-12">
-            Texnologik <span className="text-cyan-400">Stack</span>
+            Технологический <span className="text-cyan-400">Стек</span>
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -390,7 +390,7 @@ export default function Roadmap() {
         {/* Next Steps */}
         <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700">
           <h3 className="text-3xl font-bold text-center mb-12">
-            Keyingi <span className="text-cyan-400">Qadamlar</span>
+            Следующие <span className="text-cyan-400">Шаги</span>
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -412,26 +412,6 @@ export default function Roadmap() {
                 </ul>
               </div>
             ))}
-          </div>
-        </div>
-
-        {/* Call to Action */}
-        <div className="text-center mt-16">
-          <div className="bg-linear-to-r from-cyan-500/20 to-blue-500/20 rounded-2xl p-8 border border-cyan-500/30">
-            <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Loyihada Ishtirok Etmoqchimisiz?
-            </h3>
-            <p className="text-cyan-100 text-lg mb-6 max-w-2xl mx-auto">
-              Raqamli egza inqilobida ishtirok eting va sogʻliqni saqlashning kelajagiga hissa qoʻshing
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-cyan-600 transition-colors duration-200">
-                Demo Soʻrash
-              </button>
-              <button className="border-2 border-cyan-500 text-cyan-400 px-8 py-3 rounded-lg font-semibold hover:bg-cyan-500/10 transition-colors duration-200">
-                Hamkorlik Taklifi
-              </button>
-            </div>
           </div>
         </div>
       </div>

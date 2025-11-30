@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 
-export default function AdvancedHealthDashboard() {
+export default function ProblemSolution() {
   const [currentModel, setCurrentModel] = useState(0)
   const [currentView, setCurrentView] = useState('overview')
   const [isLoading, setIsLoading] = useState(true)
@@ -13,18 +13,18 @@ export default function AdvancedHealthDashboard() {
   const models = [
     {
       id: 'cardiovascular',
-      name: 'Yurak-Qon Tomir Tizimi',
+      name: 'Сердечно-Сосудистая Система',
       color: '#ef4444',
       stats: {
         heartRate: 72,
         bloodPressure: '120/80',
         oxygen: 98,
-        riskLevel: 'Past',
+        riskLevel: 'Низкий',
       },
     },
     {
       id: 'nervous',
-      name: 'Asab Tizimi',
+      name: 'Нервная Система',
       color: '#8b5cf6',
       stats: {
         stressLevel: 65,
@@ -35,7 +35,7 @@ export default function AdvancedHealthDashboard() {
     },
     {
       id: 'respiratory',
-      name: 'Nafas Olish Tizimi',
+      name: 'Дыхательная Система',
       color: '#06b6d4',
       stats: {
         respiratoryRate: 16,
@@ -47,11 +47,11 @@ export default function AdvancedHealthDashboard() {
   ]
 
   const views = [
-    { id: 'overview', name: 'Umumiy Koʻrinish', icon: '👁️' },
-    { id: 'cardiovascular', name: 'Yurak', icon: '💓' },
-    { id: 'brain', name: 'Miya', icon: '🧠' },
-    { id: 'respiratory', name: 'Nafas Olish', icon: '🌬️' },
-    { id: 'muscular', name: 'Mushaklar', icon: '💪' },
+    { id: 'overview', name: 'Общий Обзор', icon: '👁️' },
+    { id: 'cardiovascular', name: 'Сердце', icon: '💓' },
+    { id: 'brain', name: 'Мозг', icon: '🧠' },
+    { id: 'respiratory', name: 'Дыхание', icon: '🌬️' },
+    { id: 'muscular', name: 'Мышцы', icon: '💪' },
   ]
 
   // Three.js Scene
@@ -357,7 +357,7 @@ export default function AdvancedHealthDashboard() {
                 <h2 className='text-2xl font-bold text-white'>{models[currentModel].name}</h2>
                 <div className='flex items-center space-x-2'>
                   <div className='w-3 h-3 bg-green-500 rounded-full animate-pulse'></div>
-                  <span className='text-sm text-green-400'>Real vaqtda</span>
+                  <span className='text-sm text-green-400'>Реальное время</span>
                 </div>
               </div>
 
@@ -365,7 +365,7 @@ export default function AdvancedHealthDashboard() {
               <div className='relative h-[500px] bg-slate-900/50 rounded-2xl border border-slate-600/30 overflow-hidden'>
                 {isLoading && (
                   <div className='absolute inset-0 flex items-center justify-center'>
-                    <div className='text-white text-lg'>Model Yuklanmoqda...</div>
+                    <div className='text-white text-lg'>Загрузка модели...</div>
                   </div>
                 )}
                 <canvas
@@ -377,7 +377,7 @@ export default function AdvancedHealthDashboard() {
 
                 {/* Model Controls Overlay */}
                 <div className='absolute top-4 left-4 bg-black/50 backdrop-blur-sm rounded-lg p-3 border border-white/10'>
-                  <div className='text-xs text-gray-300 mb-1'>Koʻrinish</div>
+                  <div className='text-xs text-gray-300 mb-1'>Вид</div>
                   <div className='flex space-x-1'>
                     {views.map(view => (
                       <button
@@ -400,12 +400,12 @@ export default function AdvancedHealthDashboard() {
                 <div className='absolute bottom-4 left-4 right-4 bg-black/50 backdrop-blur-sm rounded-xl p-4 border border-white/10'>
                   <div className='flex justify-between items-center'>
                     <div>
-                      <div className='text-sm text-gray-300'>Tizim Holati</div>
-                      <div className='text-lg font-semibold text-green-400'>Normal</div>
+                      <div className='text-sm text-gray-300'>Статус системы</div>
+                      <div className='text-lg font-semibold text-green-400'>Нормальный</div>
                     </div>
                     <div className='text-right'>
-                      <div className='text-sm text-gray-300'>Yangilandi</div>
-                      <div className='text-sm text-white'>10 soniya oldin</div>
+                      <div className='text-sm text-gray-300'>Обновлено</div>
+                      <div className='text-sm text-white'>10 секунд назад</div>
                     </div>
                   </div>
                 </div>
@@ -440,19 +440,19 @@ export default function AdvancedHealthDashboard() {
             <div className='space-y-4'>
               <div className='inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20'>
                 <div className='w-2 h-2 bg-green-400 rounded-full animate-pulse mr-2'></div>
-                <span className='text-sm font-medium'>Raqamli Salomatlik Monitori</span>
+                <span className='text-sm font-medium'>Цифровой Монитор Здоровья</span>
               </div>
 
               <h1 className='text-4xl md:text-5xl font-bold leading-tight'>
-                Sizning{' '}
+                Ваше{' '}
                 <span className='bg-linear-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent'>
-                  Raqamli Egzagingiz
+                  Цифровое Отражение
                 </span>
               </h1>
 
               <p className='text-xl text-gray-300 leading-relaxed'>
-                Sunʼiy intellekt asosida sizning tanalizning har bir tizimini real vaqtda kuzatib
-                boring va salomatligingizni optimallashtiring.
+                На основе искусственного интеллекта отслеживайте каждую систему вашего тела в
+                реальном времени и оптимизируйте свое здоровье.
               </p>
             </div>
 
@@ -489,25 +489,25 @@ export default function AdvancedHealthDashboard() {
             <div className='bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10'>
               <h3 className='text-lg font-semibold mb-4 flex items-center'>
                 <span className='text-cyan-400 mr-2'>💡</span>
-                Salomatlik Tavsiyalari
+                Рекомендации по Здоровью
               </h3>
               <div className='space-y-3'>
                 <div className='flex items-start space-x-3'>
                   <div className='w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0'></div>
                   <p className='text-gray-300 text-sm'>
-                    Yurak urish tezligi normal doirada. Muntazam mashqlarni davom ettiring.
+                    Частота сердечных сокращений в норме. Продолжайте регулярные упражнения.
                   </p>
                 </div>
                 <div className='flex items-start space-x-3'>
                   <div className='w-2 h-2 bg-yellow-400 rounded-full mt-2 shrink-0'></div>
                   <p className='text-gray-300 text-sm'>
-                    Stress darajasi oʻrtacha. Dam olish va meditatsiya qilish tavsiya etiladi.
+                    Уровень стресса средний. Рекомендуется отдых и медитация.
                   </p>
                 </div>
                 <div className='flex items-start space-x-3'>
                   <div className='w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0'></div>
                   <p className='text-gray-300 text-sm'>
-                    Nafas olish tizimi yaxshi holatda. Havoni tozaligiga eʼtibor bering.
+                    Дыхательная система в хорошем состоянии. Обращайте внимание на чистоту воздуха.
                   </p>
                 </div>
               </div>
@@ -517,15 +517,15 @@ export default function AdvancedHealthDashboard() {
 
         {/* Features Section */}
         <div className='mt-16 bg-white/5 backdrop-blur-sm rounded-3xl border border-white/10 p-8'>
-          <h2 className='text-3xl font-bold text-center mb-8'>Qanday Ishlaydi?</h2>
+          <h2 className='text-3xl font-bold text-center mb-8'>Как Это Работает?</h2>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
             <div className='text-center'>
               <div className='w-20 h-20 bg-cyan-500/20 rounded-2xl flex items-center justify-center mx-auto mb-4'>
                 <span className='text-3xl'>📱</span>
               </div>
-              <h3 className='text-xl font-semibold mb-3'>Maʼlumotlarni Yigʻish</h3>
+              <h3 className='text-xl font-semibold mb-3'>Сбор Данных</h3>
               <p className='text-gray-300'>
-                Sensorlar va qurilmalar orqali real vaqtda sogʻliq maʼlumotlari toʻplanadi
+                Данные о здоровье собираются в реальном времени через сенсоры и устройства
               </p>
             </div>
 
@@ -533,9 +533,9 @@ export default function AdvancedHealthDashboard() {
               <div className='w-20 h-20 bg-purple-500/20 rounded-2xl flex items-center justify-center mx-auto mb-4'>
                 <span className='text-3xl'>🤖</span>
               </div>
-              <h3 className='text-xl font-semibold mb-3'>AI Tahlili</h3>
+              <h3 className='text-xl font-semibold mb-3'>AI Анализ</h3>
               <p className='text-gray-300'>
-                Sunʼiy intellekt algoritmlari maʼlumotlarni tahlil qiladi va trendlarni aniqlaydi
+                Алгоритмы искусственного интеллекта анализируют данные и выявляют тенденции
               </p>
             </div>
 
@@ -543,9 +543,9 @@ export default function AdvancedHealthDashboard() {
               <div className='w-20 h-20 bg-green-500/20 rounded-2xl flex items-center justify-center mx-auto mb-4'>
                 <span className='text-3xl'>👁️</span>
               </div>
-              <h3 className='text-xl font-semibold mb-3'>Vizualizatsiya</h3>
+              <h3 className='text-xl font-semibold mb-3'>Визуализация</h3>
               <p className='text-gray-300'>
-                Natijalar 3D model va interaktiv dashboard orqali vizuallashtiriladi
+                Результаты визуализируются через 3D модель и интерактивную панель
               </p>
             </div>
           </div>

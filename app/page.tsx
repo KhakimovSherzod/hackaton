@@ -1,3 +1,4 @@
+import BusinessPlanSection from './sections/BusinessPlanSection'
 import Overview from './sections/Overview'
 import Participants from './sections/Participants'
 import ProblemSolution from './sections/ProblemSolution'
@@ -11,6 +12,7 @@ const page = () => {
       <ProblemSolution />
       <Overview />
       <Participants />
+      <BusinessPlanSection />
       <WhyOurTeamSection />
       <Roadmap />
       <TechnicalImplementationSection />

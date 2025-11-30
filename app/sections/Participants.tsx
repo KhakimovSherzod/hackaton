@@ -1,38 +1,38 @@
 const Participants = () => {
-  const jamoaAzolari = [
+  const teamMembers = [
     {
       id: 1,
-      ism: 'Khakimov Sherzod',
-      yosh: 20,
-      rol: 'Full Stack Web Developer & Frontend Team Lead',
-      tajriba: '5 yillik tajriba',
-      konikmalar: [
+      name: 'Хакимов Шерзод',
+      age: 20,
+      role: 'Full Stack Web Developer & Frontend Team Lead',
+      experience: '5 лет опыта',
+      skills: [
         'React/Next.js',
         'TypeScript',
         'Node.js',
         'PostgreSQL',
         'Tailwind CSS',
         'Three.js',
-        'DevOps Asoslari',
+        'Основы DevOps',
       ],
-      texnologikStack: [
+      techStack: [
         'Frontend: React, Next.js, TypeScript, Tailwind CSS, Three.js',
         'Backend: Node.js, Express, REST API',
-        "Ma'lumotlar Bazasi: PostgreSQL, MongoDB",
+        'Базы данных: PostgreSQL, MongoDB',
         'DevOps: Docker, AWS, CI/CD',
       ],
-      tavsif:
-        "AI sog'liq platformasi uchun frontend interfeysini ishlab chiqish. Raqamli egza vizualizatsiyasi va foydalanuvchi interfeysini yaratish.",
-      rasm: '👨‍💻',
-      rang: 'from-blue-500 to-cyan-500',
+      description:
+        'Разработка frontend интерфейса для AI платформы здоровья. Создание визуализации цифрового двойника и пользовательского интерфейса.',
+      emoji: '👨‍💻',
+      gradient: 'from-blue-500 to-cyan-500',
     },
     {
       id: 2,
-      ism: 'Jasur',
-      yosh: 20,
-      rol: 'AI/ML Mutaxassisi',
-      tajriba: '4 yillik tajriba',
-      konikmalar: [
+      name: 'Жасур',
+      age: 20,
+      role: 'AI/ML Специалист',
+      experience: '4 года опыта',
+      skills: [
         'Machine Learning',
         'Deep Learning',
         'Python',
@@ -41,141 +41,141 @@ const Participants = () => {
         'Data Science',
         'Neural Networks',
       ],
-      texnologikStack: [
+      techStack: [
         'AI Framework: PyTorch, TensorFlow, Keras',
-        'Dasturlash: Python, R, Jupyter',
-        'ML Algoritmlari: LSTM, GRU, CNN, Random Forest',
-        "Ma'lumotlar Tahlili: Pandas, NumPy, Scikit-learn",
+        'Программирование: Python, R, Jupyter',
+        'ML Алгоритмы: LSTM, GRU, CNN, Random Forest',
+        'Анализ данных: Pandas, NumPy, Scikit-learn',
       ],
-      tavsif:
-        "Sog'liqni bashoratlash va risk baholash uchun sun'iy intellekt modellarini ishlab chiqish va trening qilish. Vaqt seriyali sog'liq ma'lumotlari bilan ishlash.",
-      rasm: '🤖',
-      rang: 'from-purple-500 to-pink-500',
+      description:
+        'Разработка и обучение моделей искусственного интеллекта для прогнозирования здоровья и оценки рисков. Работа с временными рядами медицинских данных.',
+      emoji: '🤖',
+      gradient: 'from-purple-500 to-pink-500',
     },
     {
       id: 3,
-      ism: 'Sherzod',
-      yosh: 20,
-      rol: 'DevOps & Kiberxavfsizlik Mutaxassisi',
-      tajriba: '4 yillik tajriba',
-      konikmalar: [
+      name: 'Шерзод',
+      age: 20,
+      role: 'DevOps & Кибербезопасность Специалист',
+      experience: '4 года опыта',
+      skills: [
         'Cloud Infrastructure',
-        'Kiberxavfsizlik',
+        'Кибербезопасность',
         'Docker',
         'Kubernetes',
         'AWS',
         'Security Monitoring',
         'CI/CD',
       ],
-      texnologikStack: [
+      techStack: [
         'Cloud: AWS, Google Cloud, Azure',
         'Container: Docker, Kubernetes, Docker Compose',
         'Monitoring: Prometheus, Grafana, ELK Stack',
-        'Xavfsizlik: VPN, Firewall, Encryption, HIPAA Compliance',
+        'Безопасность: VPN, Firewall, Encryption, HIPAA Compliance',
       ],
-      tavsif:
-        "Tizim infratuzilmasini boshqarish va ma'lumotlar xavfsizligini ta'minlash. Tibbiy ma'lumotlarning maxfiyligi va tizimning ishonchliligini kafolatlaydi.",
-      rasm: '🔒',
-      rang: 'from-green-500 to-emerald-500',
+      description:
+        'Управление системной инфраструктурой и обеспечение безопасности данных. Гарантирует конфиденциальность медицинских данных и надежность системы.',
+      emoji: '🔒',
+      gradient: 'from-green-500 to-emerald-500',
     },
   ]
 
-  const jamoaStatistikalari = [
-    { son: '3', sarlavha: "Jamoa A'zolari" },
-    { son: '13+', sarlavha: 'Jami Tajriba Yillari' },
-    { son: '10+', sarlavha: 'Muvaffaqiyatli Loyihalar' },
-    { son: '100%', sarlavha: "Sog'liq Texnologiyalariga Bag'ishlangan" },
+  const teamStatistics = [
+    { number: '3', title: 'Члена Команды' },
+    { number: '13+', title: 'Лет Общего Опыта' },
+    { number: '10+', title: 'Успешных Проектов' },
+    { number: '100%', title: 'Посвящены HealthTech' },
   ]
 
-  const texnologiyalar = [
+  const technologies = [
     {
-      nomi: 'Frontend',
-      texnologiyalar: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Three.js'],
+      name: 'Frontend',
+      technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Three.js'],
     },
-    { nomi: 'Backend', texnologiyalar: ['Node.js', 'Python', 'FastAPI', 'PostgreSQL', 'Redis'] },
+    { name: 'Backend', technologies: ['Node.js', 'Python', 'FastAPI', 'PostgreSQL', 'Redis'] },
     {
-      nomi: 'AI/ML',
-      texnologiyalar: ['PyTorch', 'TensorFlow', 'LSTM', 'LightGBM', 'Scikit-learn'],
+      name: 'AI/ML',
+      technologies: ['PyTorch', 'TensorFlow', 'LSTM', 'LightGBM', 'Scikit-learn'],
     },
-    { nomi: 'DevOps', texnologiyalar: ['Docker', 'AWS', 'Kubernetes', 'CI/CD', 'Monitoring'] },
+    { name: 'DevOps', technologies: ['Docker', 'AWS', 'Kubernetes', 'CI/CD', 'Monitoring'] },
   ]
 
   return (
-    <section id='jamoa' className='py-20 bg-linear-to-br from-gray-50 to-blue-50'>
+    <section id='team' className='py-20 bg-gradient-to-br from-gray-50 to-blue-50'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        {/* Sarlavha */}
+        {/* Заголовок */}
         <div className='text-center mb-16'>
           <h2 className='text-4xl md:text-5xl font-bold text-gray-900 mb-4'>
-            Bizning <span className='text-blue-600'>Professional Jamoa</span>
+            Наша <span className='text-blue-600'>Профессиональная Команда</span>
           </h2>
           <p className='text-xl text-gray-600 max-w-3xl mx-auto'>
-            Sog&apos;liqni saqlash texnologiyalari sohasida innovatsion yechimlar yaratish uchun
-            tajribali mutaxassislardan iborat jamoa
+            Команда опытных специалистов, создающих инновационные решения в сфере медицинских
+            технологий
           </p>
         </div>
 
-        {/* Jamoa Statistikalari */}
+        {/* Статистика Команды */}
         <div className='grid grid-cols-2 md:grid-cols-4 gap-6 mb-16'>
-          {jamoaStatistikalari.map((stat, index) => (
+          {teamStatistics.map((stat, index) => (
             <div
               key={index}
               className='text-center bg-white rounded-2xl p-6 shadow-lg border border-gray-100'
             >
-              <div className='text-3xl md:text-4xl font-bold text-blue-600 mb-2'>{stat.son}</div>
-              <div className='text-gray-600 font-medium'>{stat.sarlavha}</div>
+              <div className='text-3xl md:text-4xl font-bold text-blue-600 mb-2'>{stat.number}</div>
+              <div className='text-gray-600 font-medium'>{stat.title}</div>
             </div>
           ))}
         </div>
 
-        {/* Jamoa A'zolari */}
+        {/* Члены Команды */}
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16'>
-          {jamoaAzolari.map(azolar => (
+          {teamMembers.map(member => (
             <div
-              key={azolar.id}
+              key={member.id}
               className='bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2'
             >
-              {/* Gradient sarlavha */}
-              <div className={`bg-linear-to-r ${azolar.rang} p-6 text-white`}>
+              {/* Градиентный заголовок */}
+              <div className={`bg-gradient-to-r ${member.gradient} p-6 text-white`}>
                 <div className='flex items-center space-x-4'>
-                  <div className='text-4xl'>{azolar.rasm}</div>
+                  <div className='text-4xl'>{member.emoji}</div>
                   <div>
-                    <h3 className='text-xl font-bold'>{azolar.ism}</h3>
-                    <p className='text-blue-100'>{azolar.yosh} yosh</p>
+                    <h3 className='text-xl font-bold'>{member.name}</h3>
+                    <p className='text-blue-100'>{member.age} лет</p>
                   </div>
                 </div>
               </div>
 
-              {/* Asosiy kontent */}
+              {/* Основной контент */}
               <div className='p-6'>
-                {/* Rol va tajriba */}
+                {/* Роль и опыт */}
                 <div className='mb-4'>
-                  <h4 className='text-lg font-semibold text-gray-900 mb-1'>{azolar.rol}</h4>
-                  <p className='text-blue-600 font-medium text-sm'>{azolar.tajriba}</p>
+                  <h4 className='text-lg font-semibold text-gray-900 mb-1'>{member.role}</h4>
+                  <p className='text-blue-600 font-medium text-sm'>{member.experience}</p>
                 </div>
 
-                {/* Tavsif */}
-                <p className='text-gray-600 mb-4 text-sm leading-relaxed'>{azolar.tavsif}</p>
+                {/* Описание */}
+                <p className='text-gray-600 mb-4 text-sm leading-relaxed'>{member.description}</p>
 
-                {/* Asosiy ko'nikmalar */}
+                {/* Основные навыки */}
                 <div className='space-y-3 mb-4'>
-                  <h5 className='font-medium text-gray-900 text-sm'>Asosiy Ko&apos;nikmalar:</h5>
+                  <h5 className='font-medium text-gray-900 text-sm'>Основные Навыки:</h5>
                   <div className='flex flex-wrap gap-2'>
-                    {azolar.konikmalar.map((konikma, index) => (
+                    {member.skills.map((skill, index) => (
                       <span
                         key={index}
                         className='px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-medium'
                       >
-                        {konikma}
+                        {skill}
                       </span>
                     ))}
                   </div>
                 </div>
 
-                {/* Texnologik stack */}
+                {/* Технологический стек */}
                 <div className='space-y-2'>
-                  <h5 className='font-medium text-gray-900 text-sm'>Texnologik Stack:</h5>
+                  <h5 className='font-medium text-gray-900 text-sm'>Технологический Стек:</h5>
                   <div className='space-y-1'>
-                    {azolar.texnologikStack.map((stack, index) => (
+                    {member.techStack.map((stack, index) => (
                       <div
                         key={index}
                         className='text-xs text-gray-600 bg-gray-50 rounded-lg px-3 py-2'
@@ -186,34 +186,32 @@ const Participants = () => {
                   </div>
                 </div>
               </div>
-
-            
             </div>
           ))}
         </div>
 
-        {/* Texnologiyalar Bo'limi */}
+        {/* Раздел Технологий */}
         <div className='bg-white rounded-2xl shadow-lg p-8 border border-gray-100 mb-16'>
           <h3 className='text-2xl font-bold text-gray-900 mb-8 text-center'>
-            Ishlatiladigan Texnologiyalar
+            Используемые Технологии
           </h3>
 
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
-            {texnologiyalar.map((texno, index) => (
+            {technologies.map((tech, index) => (
               <div key={index} className='text-center'>
                 <div className='w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-4'>
                   <span className='text-2xl'>
                     {index === 0 ? '🎨' : index === 1 ? '⚙️' : index === 2 ? '🧠' : '🔧'}
                   </span>
                 </div>
-                <h4 className='text-lg font-semibold text-gray-900 mb-3'>{texno.nomi}</h4>
+                <h4 className='text-lg font-semibold text-gray-900 mb-3'>{tech.name}</h4>
                 <div className='space-y-2'>
-                  {texno.texnologiyalar.map((tech, techIndex) => (
+                  {tech.technologies.map((technology, techIndex) => (
                     <div
                       key={techIndex}
                       className='text-sm text-gray-600 bg-gray-50 rounded-lg py-2'
                     >
-                      {tech}
+                      {technology}
                     </div>
                   ))}
                 </div>
@@ -222,61 +220,61 @@ const Participants = () => {
           </div>
         </div>
 
-        {/* Jamoa Tuzilishi */}
+        {/* Структура Команды */}
         <div className='bg-white rounded-2xl shadow-lg p-8 border border-gray-100'>
           <h3 className='text-2xl font-bold text-gray-900 mb-8 text-center'>
-            Jamoa Tuzilishi va Vazifalari
+            Структура Команды и Обязанности
           </h3>
 
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-            {/* Frontend Jamoa */}
+            {/* Frontend Команда */}
             <div className='text-center'>
               <div className='w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-4'>
                 <span className='text-2xl'>🎨</span>
               </div>
-              <h4 className='text-lg font-semibold text-gray-900 mb-2'>Frontend Rivojlantirish</h4>
+              <h4 className='text-lg font-semibold text-gray-900 mb-2'>Frontend Разработка</h4>
               <p className='text-gray-600 text-sm mb-3'>
-                Foydalanuvchi interfeysi va raqamli egza vizualizatsiyasini yaratish. Real-vaqt
-                ma&apos;lumotlarini ko&apos;rsatish va interaktiv tajriba.
+                Создание пользовательского интерфейса и визуализации цифрового двойника. Отображение
+                данных в реальном времени и интерактивный опыт.
               </p>
               <div className='space-y-1 text-xs text-gray-500'>
-                <div>• React/Next.js dasturi</div>
-                <div>• 3D vizualizatsiya (Three.js)</div>
-                <div>• Responsive dizayn</div>
+                <div>• React/Next.js приложение</div>
+                <div>• 3D визуализация (Three.js)</div>
+                <div>• Адаптивный дизайн</div>
               </div>
             </div>
 
-            {/* AI & Backend Jamoa */}
+            {/* AI & Backend Команда */}
             <div className='text-center'>
               <div className='w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-4'>
                 <span className='text-2xl'>🧠</span>
               </div>
               <h4 className='text-lg font-semibold text-gray-900 mb-2'>AI & Backend</h4>
               <p className='text-gray-600 text-sm mb-3'>
-                Sun&apos;iy intellekt modellari va server qismini ishlab chiqish. Sog&apos;liq ma&apos;lumotlarini
-                qayta ishlash va bashoratlar yaratish.
+                Разработка моделей искусственного интеллекта и серверной части. Обработка
+                медицинских данных и создание прогнозов.
               </p>
               <div className='space-y-1 text-xs text-gray-500'>
-                <div>• Machine Learning modellari</div>
-                <div>• Ma&apos;lumotlar tahlili</div>
-                <div>• API va ma&apos;lumotlar bazasi</div>
+                <div>• Machine Learning модели</div>
+                <div>• Анализ данных</div>
+                <div>• API и базы данных</div>
               </div>
             </div>
 
-            {/* DevOps & Xavfsizlik Jamoa */}
+            {/* DevOps & Безопасность Команда */}
             <div className='text-center'>
               <div className='w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-4'>
                 <span className='text-2xl'>🔧</span>
               </div>
-              <h4 className='text-lg font-semibold text-gray-900 mb-2'>DevOps & Xavfsizlik</h4>
+              <h4 className='text-lg font-semibold text-gray-900 mb-2'>DevOps & Безопасность</h4>
               <p className='text-gray-600 text-sm mb-3'>
-                Infratuzilma, xavfsizlik va deploy. Tibbiy ma&apos;lumotlarning maxfiyligi va tizimning
-                ishonchliligini ta&apos;minlash.
+                Инфраструктура, безопасность и развертывание. Обеспечение конфиденциальности
+                медицинских данных и надежности системы.
               </p>
               <div className='space-y-1 text-xs text-gray-500'>
-                <div>• Cloud infratuzilma</div>
-                <div>• Kiberxavfsizlik</div>
-                <div>• CI/CD va monitoring</div>
+                <div>• Облачная инфраструктура</div>
+                <div>• Кибербезопасность</div>
+                <div>• CI/CD и мониторинг</div>
               </div>
             </div>
           </div>
