@@ -1,3 +1,4 @@
+import Overview from './sections/Overview'
 import Participants from './sections/Participants'
 import ProblemSolution from './sections/ProblemSolution'
 import Roadmap from './sections/Roadmap'
@@ -8,6 +9,7 @@ const page = () => {
   return (
     <div>
       <ProblemSolution />
+      <Overview />
       <Participants />
       <WhyOurTeamSection />
       <Roadmap />
