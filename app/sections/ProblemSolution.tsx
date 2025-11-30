@@ -7,7 +7,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 export default function AdvancedHealthDashboard() {
   const [currentModel, setCurrentModel] = useState(0)
   const [currentView, setCurrentView] = useState('overview')
-  const [isLoading] = useState(true)
+  const [isLoading, setIsLoading] = useState(true)
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
   const models = [
@@ -313,6 +313,7 @@ export default function AdvancedHealthDashboard() {
     }
 
     animate()
+    setTimeout(() => setIsLoading(false), 0)
     // Handle resize
     const handleResize = () => {
       if (!canvasRef.current) return
